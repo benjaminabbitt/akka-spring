@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'com.typesafe.akka:akka-actor_2.11:2.3.7'
+    compile 'org.springframework:spring-context:4.1.4.RELEASE'
+}
